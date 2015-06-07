@@ -2,5 +2,7 @@
 
 BUILD_DIR="$1"
 
+bundle config build.charlock_holmes -- --with-icu-lib=$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu --with-icu-include=$BUILD_DIR/.apt/usr/include/x86_64-linux-gnu
+
 # tree $BUILD_DIR/.apt/usr
 # gem install charlock_holmes -- --with-icu-lib=$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu --with-icu-include=$BUILD_DIR/.apt/usr/include/x86_64-linux-gnu
