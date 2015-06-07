@@ -2,4 +2,4 @@
 
 BUILD_DIR="$1"
 
-gem install charlock_holmes --with-icu-lib=$BUILD_DIR/.apt/usr/lib --with-icu-include=$BUILD_DIR/.apt/usr/include
+gem install charlock_holmes -- --with-icu-dir=$BUILD_DIR/.apt/usr
