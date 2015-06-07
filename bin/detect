@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo 'icu4u' && exit 0
