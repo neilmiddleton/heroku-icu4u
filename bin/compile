@@ -2,8 +2,4 @@
 
 BUILD_DIR="$1"
 
-bundle config build.charlock_holmes --with-icu-dir=$BUILD_DIR/vendor/lib/icu4c-52.1.0
-
-bundle config
-
-ls $BUILD_DIR/vendor/lib/icu4c-52.1.0
+gem install charlock_holmes --with-icu-dir=$BUILD_DIR/vendor/lib/icu4c-52.1.0
