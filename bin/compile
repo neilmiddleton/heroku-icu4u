@@ -3,4 +3,4 @@
 BUILD_DIR="$1"
 
 tree $BUILD_DIR/.apt/usr
-gem install charlock_holmes -- --with-icu-lib=$BUILD_DIR/.apt/usr/lib --with-icu-include=$BUILD_DIR/.apt/usr/include
+gem install charlock_holmes -- --with-icu-lib=$BUILD_DIR/.apt/usr/lib/x86_64-linux-gnu --with-icu-include=$BUILD_DIR/.apt/usr/include/x86_64-linux-gnu
